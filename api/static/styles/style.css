@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  background-color: #111;
+  color: gainsboro;
+}
+
+h1 {
+  /* font-weight: 100; */
+}
+
+.main {
+  margin: 30px;
+  background-color: #222
+}
+
+.form {
+  background-color: #333;
+}

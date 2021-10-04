@@ -2,11 +2,13 @@
 <html lang="en" dir="ltr">
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="style.css">
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
 <title>Document</title>
 </head>
 <body>
   <!-- yeet -->
+  <a href="/">home</a>
+  <a href="/todo">todo</a>
   {% block content %}
   {% endblock content %}
 </body>
